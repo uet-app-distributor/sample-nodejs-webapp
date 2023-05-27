@@ -30,6 +30,6 @@
 | `/tmp` | General volume to store files |
 
 - Database:
-  | name     | version |
-  | -------- | ------- |
-  | postgres | 15      |
+| name     | version |
+| -------- | ------- |
+| postgres | 15      |
