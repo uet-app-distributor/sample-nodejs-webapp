@@ -12,9 +12,24 @@
 
 ## Pre-requisite
 - Environment variables:
-  - USER: user runs this server
-  - PORT: port to run this server
+
+| path        | definition                              | Default   |
+| ----------- | --------------------------------------- | --------- |
+| USER        | User runs the server                    |           |
+| PORT        | Server port                             |           |
+| DB_USER     | User to connect to database             | postgres  |
+| DB_PASSWORD | Password of user to connect to database |           |
+| DB_HOST     | Database host address                   | localhost |
+| DB_PORT     | Database port address                   | 5432      |
+| DB_NAME     | Database name to connect                | postgres  |
+
 - Volume path:
-  - `/tmp`
+
+| path   | definition                    |
+| ------ | ----------------------------- |
+| `/tmp` | General volume to store files |
+
 - Database:
-  - Postgres: `>=15`
+  | name     | version |
+  | -------- | ------- |
+  | postgres | 15      |
