@@ -1,12 +1,14 @@
 # Sample NodeJS web application
 
 ## APIs
-| path   | Action | definition                |
-| ------ | ------ | ------------------------- |
-| /      | GET    | Get homepage              |
-| /env   | GET    | Get environment variables |
-| /file  | GET    | Write a file              |
-| /users | GET    | Get users                 |
+| path    | Action | definition                   |
+| ------- | ------ | ---------------------------- |
+| /       | GET    | Get homepage                 |
+| /env    | GET    | Get environment variables    |
+| /file   | GET    | Write a file                 |
+| /now    | GET    | Get current time in database |
+| /users/ | GET    | Get users                    |
+
 
 ## Pre-requisite
 - Environment variables:
@@ -15,4 +17,4 @@
 - Volume path:
   - `/tmp`
 - Database:
-  - MongoDB: `>=6.0`
+  - Postgres: `>=15`
