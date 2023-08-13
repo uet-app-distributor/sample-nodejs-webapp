@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/env', function(req, res, next) {
-  var environmentVariables = `USER: ${process.env.USER} - PORT: ${process.env.PORT}`
+  var environmentVariables = `USER: ${process.env.USER || 'sample-app'} - PORT: ${process.env.PORT}`
   res.send(`${environmentVariables}`);
 });
 
